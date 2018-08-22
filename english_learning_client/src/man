@@ -1,0 +1,11 @@
+instalooter login
+instalooter user _mojish
+-j 5  ( tedade thread )
+-v (video ham begire)
+-n (maximum tedad)
+-T {username}.{datetime}
+-D faghad metadata
+instalooter user vocab.coding -j 3 -n 10 -d -T {username}-{datetime}
+-u _mojish
+ls | grep jpg | cat -n | while read n f; do mv "$f" "$n.jpg"; done 
+ls | grep json | cat -n | while read n f; do mv "$f" "$n.json"; done 
