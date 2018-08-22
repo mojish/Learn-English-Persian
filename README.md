@@ -3,58 +3,61 @@
 
 ### Prerequisites
 
- * InstaLooter : https://github.com/althonos/InstaLooter (pip)
- * Node
- * npm
+* InstaLooter : https://github.com/althonos/InstaLooter (pip)
+* Node
+* npm
 
 ### Installing
 
 ```
-  git clone git@github.com:mojish/Learn-English-Persian.git
+git clone git@github.com:mojish/Learn-English-Persian.git
 ```
 ```
-  cd Learn-English-Persian
+cd Learn-English-Persian
 ```
 ```
-  cd english_learning_server
+cd english_learning_server
 ```
 ```
-  npm install
+npm install
 ```
 ```
-  cd ../
+cd ../
 ```
 ```
-  cd english_learning_client 
+cd english_learning_client
 ```
 ```
-  cd src/english_data 
+mkdir -p src/english_data 
 ```
 ```
-  instalooter user vocab.coding -j 5 -n 100 -d -T {username}-{datetime}            -> get 100 cards 
+cd src/english_data 
 ```
 ```
-  cd ../../ 
+instalooter user vocab.coding -j 5 -n 100 -d -T {username}-{datetime}            -> get 100 cards 
 ```
 ```
-  npm install 
+cd ../../ 
+```
+```
+npm install 
 ```
 ### Usage
 ```
 cd english_learning_server
 ```
 ```
-  node app.js &     -> server start on port 8080 
+node app.js &     -> server start on port 8080 
 ```
 ```
-  cd ../ 
+cd ../ 
 ```
 ```
-  cd english_learning_client
+cd english_learning_client
 ```
 ```
-  npm start         -> client start on port 3000
+npm start         -> client start on port 3000
 ```
 ```
-  open : localhost:3000
+open : localhost:3000
 ```
