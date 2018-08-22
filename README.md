@@ -13,19 +13,13 @@
 git clone git@github.com:mojish/Learn-English-Persian.git
 ```
 ```
-cd Learn-English-Persian
-```
-```
-cd english_learning_server
+cd Learn-English-Persian/english_learning_server
 ```
 ```
 npm install
 ```
 ```
-cd ../
-```
-```
-cd english_learning_client
+cd ../english_learning_client
 ```
 ```
 mkdir -p src/english_data 
@@ -34,7 +28,10 @@ mkdir -p src/english_data
 cd src/english_data 
 ```
 ```
-instalooter user vocab.coding -j 5 -n 100 -d -T {username}-{datetime}            -> get 100 cards 
+get 100 cards: 
+```
+```
+instalooter user vocab.coding -j 5 -n 100 -d -T {username}-{datetime}           
 ```
 ```
 cd ../../ 
@@ -47,16 +44,19 @@ npm install
 cd english_learning_server
 ```
 ```
-node app.js &     -> server start on port 8080 
+server start on port 8080 :
 ```
 ```
-cd ../ 
+node app.js & 
 ```
 ```
-cd english_learning_client
+cd ../english_learning_client
 ```
 ```
-npm start         -> client start on port 3000
+client start on port 3000 :
+```
+```
+npm start    
 ```
 ```
 open : localhost:3000
